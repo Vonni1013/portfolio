@@ -1,0 +1,83 @@
+html{
+  height:100%;
+  background-image:url('http://www.rap-up.com/app/uploads/2015/11/cb-bape.jpg');
+  background-size:cover;
+}
+#banner {
+  padding-top:22%;
+  font-family: 'Arimo', sans-serif;
+  font-size:35px;
+  display:flex;
+  justify-content:center;
+  color:#7289DA;
+}
+#heading {
+  height:100%;
+  font-family: 'Slabo 27px', serif;
+  display:flex;
+  justify-content:space-around;
+  color:#F888AC;
+}
+
+.Navbar {
+  display: flex;
+  justify-content: space-around;
+  background-color:Pink;
+  position:fixed; /* Set the navbar to fixed positon */
+  top: 0; /* Position the Navbar at the top of the page */
+  left: 0;
+  width: 100%; /*Full Width */
+}
+.Navbar a {
+  float: left;
+  display: block;
+  text-align:center;
+  padding: 14px 16px;
+  text-decoration:none;
+  color:#D884C0;
+  font-family:"'Arimo','Slabo 27px' ;
+}
+/* Change background color on the mouse-over */
+.Navbar a:hover{
+  color:white;
+  background:#9370DB;
+}
+#about-content {
+  display:flex;
+  justify-content:space-around;
+  margin-top:22%;
+}
+
+img{
+  border-radius:50%;
+  border-solid5px:#8A2BE2;
+}
+.my-description {
+  background:white;
+  margin:3%;
+  padding:4%;
+  font-family:"Arimo","Slabo 27px";
+}
+ .project-container {
+   margin-top:20%;
+   display:flex;
+   width:100%;
+   height:100%;
+   justify-content:space-between;
+}
+span {
+  background:#62A8E1;
+  width:30%;
+  height:60%;
+  margin:2%;
+  padding:2%;
+  font-family:"Arimo";
+  color:white;
+  align-items:center;
+}
+   
+.feature-content {
+  margin-top:10%;
+  background-color:pink;
+  
+}
